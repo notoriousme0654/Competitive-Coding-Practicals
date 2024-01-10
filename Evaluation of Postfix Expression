@@ -1,0 +1,23 @@
+" 10 6 9 3 + -11 * / * 17 + 5 + "
+
+.split()
+typecasting
+explicit
+
+
+if else is not " / * + - " (operands)
+    push in stack
+
+else (operator)
+   R = stack.pop()                                        
+   L = stack.pop()                                               
+
+ switch(operator)
+     case '+'
+         stack.push(L + R)
+     case '-'
+         stack.push(L - R)
+     case '*'
+         stack.push(L * R)
+     case '/'
+         stack.push(int(L / R))
